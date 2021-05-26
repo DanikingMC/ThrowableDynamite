@@ -11,10 +11,6 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.world.World;
 import net.minecraft.world.explosion.Explosion;
 
-/**
- * Base class for dynamite entities
- */
-
 public class DynamiteEntity extends DynamiteEntityBase {
 
     public DynamiteEntity(EntityType<? extends ThrownItemEntity> entityType, World world) {
