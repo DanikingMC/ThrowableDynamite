@@ -11,6 +11,10 @@ import net.minecraft.network.Packet;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.world.World;
 
+/**
+ * Base class for dynamite entities
+ */
+
 public abstract class DynamiteEntityBase extends ThrownItemEntity {
 
     public DynamiteEntityBase(EntityType<? extends ThrownItemEntity> entityType, World world) {
